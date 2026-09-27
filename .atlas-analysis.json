@@ -1,0 +1,81 @@
+{
+  "projectType": "saas",
+  "projectName": "Queme",
+  "projectDescription": "Queme is a mobile app that keeps dog event participants and hosts connected in real time — with live run orders, check-in management, push notifications, and scoring tools.",
+  "theme": "almond",
+  "primaryColor": "#086afe",
+  "lightColor": "#dc1414",
+  "darkColor": "#bcbec0",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "download-and-sign-in",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "For Participants",
+            "pages": [
+              "participants/find-and-follow-events",
+              "participants/tracking-your-dog",
+              "participants/notifications",
+              "participants/live-scoreboard"
+            ]
+          },
+          {
+            "group": "For Hosts",
+            "pages": [
+              "hosts/becoming-a-host",
+              "hosts/creating-events",
+              "hosts/managing-runs",
+              "hosts/adding-dogs",
+              "hosts/dog-status-and-check-in",
+              "hosts/bark-messages",
+              "hosts/sending-notifications"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "faq",
+              "contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Real-time digital run orders with live updates",
+    "One-tap attendee check-in management for hosts",
+    "Push notifications for run order alerts and event changes",
+    "Bell-icon dog tracking for instant per-dog notifications",
+    "Custom dog statuses (Checked In, In Line, Running, Completed)",
+    "Live scoreboard viewable by all participants",
+    "Bark Messages — targeted alerts sent directly to a dog's followers",
+    "Excel import for bulk dog entry",
+    "Host/Participant dual-view mode",
+    "Available on iOS (App Store) and Android (Google Play)"
+  ],
+  "publicApiSurface": [
+    "Sign in with Google / Apple / Email",
+    "Find & Follow Events",
+    "View Run Orders",
+    "Track Dog (bell icon subscription)",
+    "Custom Dog Statuses",
+    "Live Scoreboard",
+    "Create & Manage Events (up to 7 days)",
+    "Build Unlimited Runs",
+    "Add Dogs Manually or via Excel Import",
+    "Manage Dog Statuses / Check-In",
+    "Send Bark Messages",
+    "Send Custom Notifications to event or run followers",
+    "Host Credit System (2 free event credits on upgrade)"
+  ]
+}
